@@ -42,12 +42,12 @@ export default function Home() {
     <div className="content-section">
 
       <div id="statisticsView">
-        <div className="loading">Enter a player tag and click "Fetch Cards" to see statistics</div>
+        <div className="loading">Enter a player tag and click Fetch Cards to see statistics</div>
       </div>
 
 
       <div id="cardsView" className="hidden">
-        <div className="loading">Enter a player tag and click "Fetch Cards" to see cards</div>
+        <div className="loading">Enter a player tag and click Fetch Cards to see cards</div>
       </div>
       <div id="levelsView" className="hidden">
         <div className="loading">Enter player tag</div>
