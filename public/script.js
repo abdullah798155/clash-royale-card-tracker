@@ -111,7 +111,7 @@
       showLoading();
 
       try {
-        const response = await fetch(`http://localhost:3000/api/playercards/${tag}`);
+        const response = await fetch(`/api/playercards/${tag}`);
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
         const data = await response.json();
